@@ -9,6 +9,7 @@ export default function Home() {
         <h1 className="text-xl font-bold">MyShop</h1>
         <div className="space-x-4">
           <Link href="/products">Products</Link>
+          <Link href="/dashboard/add-product"> Add Products</Link>
           <Link href="/login">Login</Link>
         </div>
       </nav>
