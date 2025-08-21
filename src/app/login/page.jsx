@@ -9,7 +9,7 @@ export default function LoginPage() {
 
       {/* Google Login */}
       <button
-        onClick={() => signIn("google", { callbackUrl: "/" })}
+        onClick={() => signIn("google", { callbackUrl: "/products" })}
         className="bg-blue-500 text-white px-4 py-2 rounded"
            
       >
